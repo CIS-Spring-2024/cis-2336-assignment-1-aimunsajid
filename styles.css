@@ -1,0 +1,177 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #d71818;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    line-height: 40px;
+    height: 300px;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: left;
+    text size: height: 50px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d71818;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+/* Hover effects for navigation menu links */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d71818;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #1a252f;
+}
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffa500; /* Change to a different color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px; /* Increase spacing between sections */
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Owner info styles */
+.owner-info {
+    display: flex;
+    align-items: center;
+}
+
+.owner-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owner-details {
+    flex: 1;
+}
+
+.p1 {
+text-align: center;
+}
