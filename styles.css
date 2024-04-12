@@ -9,13 +9,13 @@ body, h1, h2, p, ul, li {
 /* Set background color and text color */
 body {
     background-color: #f8f8f8;
-    color: #333;
+    color: #ce1515;
     font-family: Arial, sans-serif;
 }
 
 /* Header styles */
 header {
-    background-color: #d71818;
+    background-color: rgb(202, 2, 42);
     color: #fff;
     padding: 20px;
 }
@@ -23,6 +23,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 32px;
+    
     
 }
 
@@ -54,7 +55,7 @@ section {
 h2 {
     color: #2c3e50;
     text-align: left;
-    text size: height: 50px;
+    height: 50px;
 }
 
 /* Footer styles */
@@ -69,9 +70,15 @@ footer {
 nav ul li a:hover {
     text-decoration: underline;
 }
+/* Container styles */
+.container {
+text-align: center;
+}
+
 /* Button styles */
 .button {
     display: inline-block;
+    text-align: center;
     padding: 10px 20px;
     background-color: #d71818;
     color: #fff;
@@ -79,7 +86,7 @@ nav ul li a:hover {
     border: none;
     border-radius: 50px;
     transition: background-color 0.3s ease;
-    
+    align-self: center;
 }
 
 /* Hover effect for buttons */
@@ -106,7 +113,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #2c3e50;
+    background-color:rgb(202, 2, 42);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -174,4 +181,141 @@ p {
 
 .p1 {
 text-align: center;
+}
+
+#menu-container {
+    border: 5px solid red; /* Adjust the border thickness as needed */
+    padding: 20px;
+    margin: auto;
+    max-width: 960px; /* Adjust based on your layout's needs */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    background-color: #FFFFFF; /* Optional: ensures the background is white */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF8DC;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-item {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F0F8FF;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.menu-item img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.menu-item h2, .menu-item h3 {
+    margin: 0;
+    color: crimson;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    color: #333;
+    padding-left: 5%;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-item h3 {
+    margin-bottom: 10px; /* Adjust this value to increase or decrease the space */
+    color: Crimson;
+}
+
+#menu-title {
+    border: 2px solid rgb(176, 4, 39); /* Solid border with the color of your choice */
+    display: block; /* Changed to block to allow centering */
+    padding: 10px; /* Adds some space around the text inside the border */
+    margin: 20px auto; /* Top and bottom margins with auto left and right margins for centering */
+    border-radius: 10px; /* Optional: rounds the corners of the border */
+    text-align: center; /* Centers the text within the element */
+    font-size: 24px; /* Increases the font size, adjust as needed */
+    font-weight: bold; /* Makes the font weight bold */
+}
+#biography h1{
+    text-align: center;
+    font-size:xx-large;
+}
+.owner-details h3 {
+    font-size: larger;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #b8cee1;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    
+    
+}
+.owner-details p {
+ text-align: center;
+ font-size: larger;
+ font-weight: 400;
+ font-size: larger;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #d9e4ee;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+ 
+}
+#about p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#about h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
+}
+
+#menu p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#menu h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
+}
+#contact p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#contact h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
 }
