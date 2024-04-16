@@ -18,13 +18,24 @@
                 <li><a href="order.html">Order Online</a></li>
             </ul>
         </nav>
-    </header>
-    
+</header>
+<h2>Place Your Order</h2>
+<div id="orderForm">
+    <form action="OrderServlet" method="post">
+        <fieldset>
+            <legend>Select Items</legend>
+            <div id="menuItems"></div>
+        </fieldset>
+    </form>
+<script src="script.js"></script>
+<button onclick="myFunction()">Submit Order</button>
 
-    <h1 id="menu-title">Cafeteria Menu</h1>
-    <div id="entrees" class="menu-section"></div>
-    <div id="desserts" class="menu-section"></div>
-    <div id="drinks" class="menu-section"></div>
-    <script src="script.js"></script>
+<script>
+function myFunction() {
+  alert("Thank You For Your Order");
+}
+</script>
+</div>
 </body>
 </html>
+
